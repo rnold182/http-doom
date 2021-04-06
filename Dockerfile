@@ -8,6 +8,6 @@ WORKDIR /app
 
 COPY app .
 
-ENV PORT=8080
+ENV PORT=443
 ENV DISPLAY=:0
 ENTRYPOINT [ "/app/entrypoint.sh" ]
