@@ -5,6 +5,6 @@ services:
     build: .
     image: ${IMAGE:-http-doom}
     environment:
-      - PORT=8080
+      - PORT=443
     ports:
-      - 8080:8080
+      - 443:443
